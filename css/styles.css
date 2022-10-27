@@ -159,17 +159,18 @@ ul {
 
 .section-hero {
   max-width: 1600px;
-  background-color: var(--primary-background-color);
+  background: rgba(47, 48, 58, 0.4);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
+  background-image: url(../images/hat.jpg);
 }
 
 .hero {
   display: block;
-  background-color: var(--primary-background-color);
+  /* background-color: var(--primary-background-color); */
 }
 
 .hero-title {
@@ -233,6 +234,50 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+}
+
+.item-1::before {
+  display: block;
+  content: '';
+  width: 270px;
+  height: 120px;
+  background: var(--color-btn-bg);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-image: url(../images/SVG/Group\ 1.svg);
+}
+
+.item-2::before {
+  display: block;
+  content: '';
+  width: 270px;
+  height: 120px;
+  background: var(--color-btn-bg);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-image: url(../images/SVG/Group\ 2.svg);
+}
+
+.item-3::before {
+  display: block;
+  content: '';
+  width: 270px;
+  height: 120px;
+  background: var(--color-btn-bg);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-image: url(../images/SVG/Group\ 3.svg);
+}
+
+.item-4::before {
+  display: block;
+  content: '';
+  width: 270px;
+  height: 120px;
+  background: var(--color-btn-bg);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-image: url(../images/SVG/Group\ 4.svg);
 }
 
 .p-preferens {
