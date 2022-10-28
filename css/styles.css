@@ -472,6 +472,31 @@ a {
   justify-content: center;
 }
 
+/* Клієнти */
+
+.section-clients {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 94px;
+}
+
+.title-clients {
+  text-align: center;
+  padding-top: 84px;
+  padding-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.link-clients {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style: none;
+}
+
 /* Кнопки (фільтр) */
 .filter-btn button {
   color: var(--primary-text-color);
