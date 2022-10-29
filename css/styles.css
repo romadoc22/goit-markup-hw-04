@@ -22,7 +22,8 @@ body {
 .list-style,
 .list-examples,
 .list-team,
-.list-footer {
+.list-footer,
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -223,11 +224,6 @@ ul {
   width: 270px;
 }
 
-.team {
-  display: flex;
-  list-style: none;
-}
-
 /* section */
 
 .list-item {
@@ -334,6 +330,12 @@ ul {
 
 /* Наша команда */
 
+.team {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
 .list-team {
   display: flex;
   flex-wrap: wrap;
@@ -363,7 +365,6 @@ ul {
 
 .p-team {
   padding-top: 10px;
-  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
