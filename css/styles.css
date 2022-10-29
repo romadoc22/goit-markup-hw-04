@@ -423,6 +423,24 @@ ul {
   margin-bottom: 20px;
 }
 
+.footer-list {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+}
+
+.footlogo {
+  margin-left: 200px;
+  margin-right: 70px;
+  padding: 0;
+}
+.footlist {
+  margin-left: 0;
+  margin-right: auto;
+}
+
 /* portfolio */
 
 .list-filter {
