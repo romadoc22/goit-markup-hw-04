@@ -216,7 +216,7 @@ ul {
 .action {
   display: flex;
   list-style: none;
-  justify-content: center;
+  justify-content: space-between;
   padding-top: 24px;
   padding-bottom: 22px;
   padding-left: 34px;
@@ -420,6 +420,7 @@ ul {
 }
 .logo-footer {
   display: block;
+  padding-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -429,6 +430,7 @@ ul {
 
 .footer {
   display: flex;
+  padding: 0;
 }
 
 .footlogo {
@@ -439,6 +441,17 @@ ul {
 .footlist {
   margin-left: 0;
   margin-right: auto;
+}
+
+.title-footer {
+  padding-top: 72px;
+  padding-bottom: 20px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* portfolio */
