@@ -228,15 +228,15 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff;
   color: #afb1b8;
   border-radius: 50%;
-  width: 44px;
-  height: 44px;
 }
 
 .social-icon {
-  fill: #afb1b8;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  fill: currentColor;
 }
 
 .action-link:hover svg {
@@ -245,7 +245,7 @@ ul {
 
 .link-action:hover {
   background-color: var(--accent-color);
-  color: var(--pimary-white-color);
+  color: white;
 }
 
 /* section */
