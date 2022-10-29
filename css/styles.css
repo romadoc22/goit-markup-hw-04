@@ -217,11 +217,34 @@ ul {
   display: flex;
   list-style: none;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 22px;
-  padding-left: 34px;
-  padding-right: 30px;
+  padding-top: 16px;
+  padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
   width: 270px;
+}
+
+.link-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #afb1b8;
+  border-radius: 50%;
+}
+
+.social-icon {
+  fill: #afb1b8;
+}
+
+.action-link:hover svg {
+  fill: var(--pimary-white-color);
+}
+
+.link-action:hover {
+  background-color: var(--accent-color);
+  width: 44px;
+  height: 44px;
 }
 
 /* section */
@@ -446,12 +469,33 @@ ul {
 .title-footer {
   padding-top: 72px;
   padding-bottom: 20px;
+  color: var(--pimary-white-color);
 }
 
-.social-icon {
+.footer-link {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.link-action-footer {
+  fill: var(--pimary-white-color);
+}
+
+.social-icon-footer {
+  fill: #ffffff;
+}
+
+.footer-link:not(:first-child) {
+  margin-left: 10px;
+}
+
+.footer-link:hover {
+  background-color: var(--accent-color);
 }
 
 /* portfolio */
@@ -466,9 +510,6 @@ ul {
 .item-filter {
   width: 370px;
   border: 1px solid #eeeeee;
-}
-a img {
-  display: block;
 }
 
 .fotoport {
