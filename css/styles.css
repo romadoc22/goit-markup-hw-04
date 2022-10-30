@@ -54,7 +54,7 @@ ul {
 }
 
 .container {
-  max-width: 1230px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   /* outline: 2px solid tomato; */
@@ -153,9 +153,9 @@ ul {
   text-decoration: none;
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus,
-.icon-clients:hover {
+.link:hover,
+.link:focus,
+.icon-clients-nav:hover {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
@@ -385,6 +385,7 @@ ul {
 }
 
 .link-team {
+  margin-left: 30px;
   background-color: var(--pimary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -602,8 +603,6 @@ a {
   justify-content: center;
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
   margin-left: 30px;
 }
 
@@ -616,6 +615,8 @@ a {
 
 .icon-clients {
   fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .icon-clients:hover {
