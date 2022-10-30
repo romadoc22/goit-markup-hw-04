@@ -154,8 +154,7 @@ ul {
 }
 
 .link:hover,
-.link:focus,
-.icon-clients-nav:hover {
+.link:focus {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
@@ -163,11 +162,18 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.icon-clients-nav {
+  margin-right: 10px;
+}
+
+.icon-clients-nav:hover {
+  fill: #2196f3;
+}
+
 .item-auth-nav {
   display: flex;
   align-items: center;
   justify-content: start;
-  margin-left: 10px;
 }
 
 .item-auth-nav:nth-child(3) {
@@ -604,6 +610,8 @@ a {
   width: 170px;
   height: 92px;
   margin-left: 30px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .link-clients {
@@ -615,8 +623,6 @@ a {
 
 .icon-clients {
   fill: #afb1b8;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
 }
 
 .icon-clients:hover {
