@@ -60,7 +60,8 @@ ul {
 .section-preferens,
 .section-examples,
 .section-team,
-.section-filter {
+.section-filter,
+.section-clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -573,6 +574,34 @@ a {
   padding-bottom: 94px;
 }
 
+.item-clients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  margin-left: 30px;
+}
+
+.link-clients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  color: #afb1b8;
+}
+
+.icon-clients {
+  color: #000;
+}
+
+/* .li-clients {  
+  border: solid #212121;
+  background: #f5f5f5;
+} */
+
 .title-clients {
   text-align: center;
   padding-top: 84px;
@@ -581,13 +610,6 @@ a {
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-}
-
-.link-clients {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 0;
-  list-style: none;
 }
 
 /* Кнопки (фільтр) */
