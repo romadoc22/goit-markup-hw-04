@@ -9,6 +9,12 @@
   --color-btn-bg: #f5f4fa;
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
@@ -136,10 +142,9 @@ ul {
 }
 
 .auth-nav .link {
-  display: block;
+  /* display: block; */
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: 50px;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -155,6 +160,16 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.item-auth-nav {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 10px;
+}
+.item-auth-nav:nth-child(4) {
+  margin-left: 30px;
 }
 
 /* hero */
