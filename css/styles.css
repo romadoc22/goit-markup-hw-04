@@ -590,11 +590,10 @@ a {
   align-items: center;
   justify-content: center;
   list-style: none;
-  color: #afb1b8;
 }
 
 .icon-clients {
-  color: #000;
+  fill: #afb1b8;
 }
 
 /* .li-clients {  
