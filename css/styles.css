@@ -596,6 +596,10 @@ a {
   fill: #afb1b8;
 }
 
+.icon-clients:hover {
+  fill: #2196f3;
+}
+
 /* .li-clients {  
   border: solid #212121;
   background: #f5f5f5;
