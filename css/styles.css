@@ -157,6 +157,8 @@ ul {
 .link:focus {
   color: var(--accent-color);
   font-weight: 500;
+}
+.link {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -167,7 +169,7 @@ ul {
 }
 
 .icon-clients-nav:hover {
-  fill: #2196f3;
+  fill: currentColor;
 }
 
 .item-auth-nav {
