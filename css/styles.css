@@ -619,6 +619,12 @@ a {
   align-items: center;
   justify-content: center;
   list-style: none;
+  margin-bottom: 94px;
+}
+
+.item-clients:hover,
+.item-clients:focus {
+  border-color: var(--accent-color);
 }
 
 .icon-clients {
@@ -631,7 +637,7 @@ a {
 
 .title-clients {
   text-align: center;
-  padding-top: 84px;
+  padding-top: 94px;
   padding-bottom: 50px;
   font-size: 36px;
   line-height: 1.16;
