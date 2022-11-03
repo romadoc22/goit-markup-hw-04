@@ -7,6 +7,7 @@
   --primary-background-color: #2f303a;
   --footer-color: rgba(255, 255, 255, 0.6);
   --color-btn-bg: #f5f4fa;
+  --icon-color: #afb1b8;
 }
 
 img {
@@ -252,7 +253,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #afb1b8;
+  color: var(--icon-color);
   border-radius: 50%;
 }
 
@@ -269,7 +270,7 @@ ul {
 
 .link-action:hover {
   background-color: var(--accent-color);
-  color: white;
+  color: var(--pimary-white-color);
 }
 
 /* section */
@@ -303,6 +304,10 @@ ul {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+  padding: 25px 100px;
+
+  background: var(--color-btn-bg);
+  border-radius: 4px;
 }
 
 .p-preferens {
@@ -354,7 +359,6 @@ ul {
 }
 
 .link-team {
-  margin-left: 30px;
   background-color: var(--pimary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -390,12 +394,18 @@ ul {
 
 /* footer */
 .footer {
-  max-width: 1600px;
+  width: 1600px;
   background-color: var(--primary-background-color);
-  padding-top: 60px;
-  padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.footer-list {
+  display: flex;
+}
+
+.footer-adress {
+  margin: 60px 0;
 }
 
 .link-footer .geo {
@@ -432,33 +442,22 @@ ul {
 }
 .logo-footer {
   display: block;
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 
-.footer-list {
+.footblock {
   display: flex;
-}
-
-.footer {
-  display: flex;
-  padding: 0;
-}
-
-.footlogo {
-  margin-left: 200px;
-  margin-right: 70px;
-  margin-bottom: 60px;
+  gap: 70px;
 }
 
 .footlist {
-  margin-left: 0;
+  padding-left: 70;
   margin-right: auto;
+  margin-top: 72px;
   margin-bottom: 100px;
 }
 
 .title-footer {
-  padding-top: 72px;
   padding-bottom: 20px;
   color: var(--pimary-white-color);
 }
@@ -478,7 +477,7 @@ ul {
 }
 
 .social-icon-footer {
-  fill: #ffffff;
+  fill: var(--pimary-white-color);
 }
 
 .footer-link:not(:first-child) {
@@ -569,12 +568,13 @@ a {
 .item-clients {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 170px;
   height: 92px;
   margin-left: 30px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  padding: 16px 32px;
 }
 
 .link-clients {
@@ -591,11 +591,11 @@ a {
 }
 
 .icon-clients {
-  fill: #afb1b8;
+  fill: var(--icon-color);
 }
 
 .icon-clients:hover {
-  fill: #2196f3;
+  fill: var(--accent-color);
 }
 
 .title-clients {
