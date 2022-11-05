@@ -100,7 +100,6 @@ ul {
 .header {
   display: flex;
   align-items: center;
-  max-width: 1600px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -191,7 +190,8 @@ ul {
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../images/hat.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hat.jpg);
 }
 
 .hero {
@@ -232,7 +232,6 @@ ul {
 
 .link :hover,
 .link :focus {
-  background-color: var(--accent-color);
   color: var(--pimary-white-color);
 }
 
@@ -394,10 +393,7 @@ ul {
 
 /* footer */
 .footer {
-  width: 1600px;
   background-color: var(--primary-background-color);
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .footer-list {
