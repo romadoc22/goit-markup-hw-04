@@ -521,7 +521,7 @@ ul {
 
 .foto-title {
   padding-top: 20px;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 
   font-weight: 700;
   font-size: 18px;
@@ -531,7 +531,6 @@ ul {
 }
 
 .p-portfolio {
-  padding-bottom: 20px;
   font-weight: 400;
 
   font-size: 16px;
